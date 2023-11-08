@@ -61,7 +61,7 @@ async function run() {
 
 
         // token related api
-    // For creation of token, creating a route in server called jw 
+    // For creation of token, creating a route in server called 
 
     app.post('/jwt',async(req,res)=>{
       const user=req.body; // here,in server we are fetching client details like email send by client
