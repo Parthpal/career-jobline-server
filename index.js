@@ -161,7 +161,7 @@ async function run() {
         console.log(`A document was inserted with the _id: ${result.insertedId}`);
         res.send(result);
     })
-  //update in
+  //update i
   app.put('/jobs/:id', async (req, res) => {
     const id=req.params.id;
     const updateApplicants=req.body;
